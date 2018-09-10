@@ -37,7 +37,7 @@ clf
 p1 = plot(Ranked_S_normalised(SandflyParamFlag == 0), YVal(SandflyParamFlag == 0), 'x', 'MarkerSize', 10, 'LineWidth', 3,'DisplayName','Dog associated only');
 hold on 
 %Plot sandfly associated parameter sens. coefficients
-p2 = plot(Ranked_S_normalised(SandflyParamFlag == 1), YVal(SandflyParamFlag == 1), '.', 'MarkerSize', 30, 'LineWidth', 3,'DisplayName','Sandfly associated');
+p2 = plot(Ranked_S_normalised(SandflyParamFlag == 1), YVal(SandflyParamFlag == 1), '.', 'MarkerSize', 30, 'LineWidth', 3,'DisplayName','Sand fly associated');
 
 %List parameter set IDs in reverse ranking order, as a string
 YAxisLabels = cell(1,15);
