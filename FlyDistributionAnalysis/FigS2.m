@@ -25,7 +25,7 @@ for(i=1:3)
     subplot(3, 1, i)    
     pl1 = patch(x_panel, y_panel, [0.9 0.9 0.9], 'LineStyle', 'none', 'DisplayName', 'Wet season');
     hold on
-    pl2 = plot(uDate, uHosts{i}, '.k', 'MarkerSize', 15, 'DisplayName', 'Mean female sandflies trapped');
+    pl2 = plot(uDate, uHosts{i}, '.k', 'MarkerSize', 15, 'DisplayName', 'Mean female sand flies trapped');
     pl3 = plot(uDate, smoothed{i}, 'r', 'LineWidth', 2, 'DisplayName', 'Lowess smoother');
     datetick('x', 'mmm')
     ylim([0 350])
