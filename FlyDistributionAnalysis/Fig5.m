@@ -34,7 +34,7 @@ hold on
 
 %Plot number of sandflies in each household
 t2 = plot(date, SandflySeasonalityData, 'k.', 'MarkerSize', 15,...
-    'DisplayName', 'Female sandflies trapped');
+    'DisplayName', 'Female sand flies trapped');
 
 %Plot mean over trapping sites;
 m2 = plot(uDate, uTotal,'--','Color',[0 0 0.8], 'LineWidth', 2,...
@@ -47,7 +47,7 @@ datetick('x', 'mmm')
 xlim([date(1) date(1)+365])
 set(gca, 'FontSize', 22)
 xlabel('Date')
-ylabel('Number of sandflies')
+ylabel('Number of sand flies')
 ylim([0 1200])
 legend([p2, t2, m2, l2]);
 set(gca, 'Layer', 'top') %Bring axis infront of patch object 
