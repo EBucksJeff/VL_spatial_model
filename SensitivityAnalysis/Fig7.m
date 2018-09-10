@@ -60,11 +60,11 @@ BiolParam_xlabels{7} = 'Average mortality rate of low infectious dog (per month)
 BiolParam_xlabels{8} = 'Average mortality rate of highly infectious dog (per month)';
 BiolParam_xlabels{9} = 'Average mortality rate of susceptible dog (per month)';
 BiolParam_xlabels{10} = 'Replacement time (days)';
-BiolParam_xlabels{11} = 'Sandfly bite rate (per day)';
-BiolParam_xlabels{12} = 'Background propn. of sandflies infected';
-BiolParam_xlabels{13} = 'Prob. suscept. dog infected when bitten by infected sandfly';
-BiolParam_xlabels{14} = 'Prob. suscept. sandfly infected when biting infectious dog';
-BiolParam_xlabels{15} = 'Propn. of female sandlfies unobserved';
+BiolParam_xlabels{11} = 'Sand fly bite rate (per day)';
+BiolParam_xlabels{12} = 'Background propn. of sand flies infected';
+BiolParam_xlabels{13} = 'Prob. suscept. dog infected when bitten by infected sand fly';
+BiolParam_xlabels{14} = 'Prob. suscept. sand fly infected when biting infectious dog';
+BiolParam_xlabels{15} = 'Propn. of female sand flies unobserved';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
