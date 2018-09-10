@@ -24,7 +24,7 @@ for(i=1:8)
     pl1 = patch(x_panel, y_panel, [0.9 0.9 0.9], 'LineStyle', 'none', 'DisplayName', 'Wet season');
     hold on
     pl2 = plot(date_by_house{i}, total_by_house{i}, '.k',...
-        'MarkerSize', 15, 'DisplayName', 'Female sandflies trapped');
+        'MarkerSize', 15, 'DisplayName', 'Female sand flies trapped');
     datetick('x', 'mmm')
     ylim([0 1200])
     pl3 = plot(date_by_house{i}, smoothed{i}, 'r', 'LineWidth', 2, 'DisplayName', 'Lowess smoother');
