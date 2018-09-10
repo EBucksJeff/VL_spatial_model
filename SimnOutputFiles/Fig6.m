@@ -66,8 +66,7 @@ xticklabels({'5','6','7','8','9','10'})
 xlim([0 5*365])
 
 %Set y-axis properties
-ylabel('VL prevalence (%)');
-%ylabel('\it L. infantum\rm prevalence (%)')
+ylabel('\it L. infantum\rm prevalence (%)')
 yticks([0.45 0.50 0.55 0.60 0.65 0.70 0.75])
 yticklabels({'45','50','55','60','65','70','75'})
 ylim([0.45 0.76])
