@@ -1,4 +1,4 @@
-%% Code to produce Figure 7
+%% Code to produce Figure 6
 
 %Purpose:
 %Plot median & 95% prediction interval of VL prevalence in dogs  
