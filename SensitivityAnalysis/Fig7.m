@@ -1,4 +1,4 @@
-%% Code to produce Figure 8
+%% Code to produce Figure 7
 
 %Purpose:
 %Plot sensitivity parameter ranking
