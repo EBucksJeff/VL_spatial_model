@@ -1,4 +1,4 @@
-%% This creates figure S1: seasonality of sandfly abundance per household
+%% This creates figure S3: seasonality of sandfly abundance per household
 clear
 
 %% Load data
