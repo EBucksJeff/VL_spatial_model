@@ -1,12 +1,12 @@
+%% Code to produce Figure S1: host distributions and Table S1: AIC values
+
 %% This script fits to rural host count data using Poisson and negative binomial
-% It produces figure 4
-% And the values for supplementart table 1
 clear 
 
 %% Read in the data
 load('host_dist_data.mat')
 
-%% Figure 4
+%% Figure S1
 figure(1)
 clf
 
@@ -70,19 +70,20 @@ box on
 subplot(2, 2, 4)
 hold on
 histogram(chicken_rural, 10, 'Normalization', 'probability',...
-    'FaceColor', [0.75 0.75 0.75])
+    'FaceColor', [0.75 0.75 0.75], 'DisplayName', 'Data')
 set(gca, 'FontSize', 15)
 xlabel('Number of chickens')
 ylabel('Probability')
 pd_ck_p = poissfit(chicken_rural);
 ppdf_ck_p = poisspdf(0:max(chicken_rural), pd_ck_p);
-plot(0:max(chicken_rural), ppdf_ck_p, 'LineWidth', 3, 'Color', [0 0.4470 0.7410])
+plot(0:max(chicken_rural), ppdf_ck_p, 'LineWidth', 3, 'Color', [0 0.4470 0.7410], 'DisplayName', 'Poisson fit')
 
 pd_ck_nb = fitdist(chicken_rural, 'NegativeBinomial');
 ppdf_ck_nb = pdf(pd_ck_nb, 0:max(chicken_rural));
 plot(0:max(chicken_rural), ppdf_ck_nb, 'LineWidth', 3,...
-    'Linestyle', '-.', 'Color', [0.85 0.3250 0.098])
+    'Linestyle', '-.', 'Color', [0.85 0.3250 0.098], 'DisplayName', 'Negative binomial fit')
 
+legend(gca, 'show')
 xlim([-0.5 50.5])
 box on
 
