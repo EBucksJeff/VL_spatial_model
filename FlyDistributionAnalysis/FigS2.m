@@ -1,4 +1,4 @@
-%% Code to produce Figure 5: fly seasonality 
+%% Code to produce Figure S2: fly seasonality 
 
 clear
 
