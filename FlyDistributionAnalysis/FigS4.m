@@ -1,4 +1,4 @@
-%% This creates figure S2: seasonality of sandfly abundance by location
+%% This creates figure S4: seasonality of sandfly abundance by location
 clear
 
 %% Load data
