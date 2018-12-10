@@ -1,4 +1,4 @@
-%% Code to produce Figure 6
+%% Code to produce Figure 5
 
 clear
 
